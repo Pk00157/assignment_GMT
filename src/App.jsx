@@ -3,13 +3,18 @@ import Footer from "./components/layout-contact/footer";
 import Hero from "./components/layout-contact/Hero";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Router } from "react-router-dom";
 import Contact from "./pages/Contact";
 import BlogPost from "./components/layout-blog/Blogpost";
+import ScrollToTop from "./components/ScrollTop"; 
 
 function App() {
   return (
-   <div>
+     <div>
+  
+     
+
+  <ScrollToTop />
   <Navbar />
   <Routes>
     <Route path="/" element={<Home />} />
@@ -20,7 +25,10 @@ function App() {
     <Route path="/blog/:id" element={<BlogPost />} />
   </Routes>
   <Footer />
-</div>
+
+   
+        </div>
+   
   );
 } 
 
