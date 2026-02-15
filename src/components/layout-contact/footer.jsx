@@ -18,7 +18,7 @@ export default function Footer() {
       >
 
         {/* LEFT (WIDER COLUMN) */}
-        <div>
+        <div> 
           <h2 className="text-[48px] font-bold mb-12 tracking-wide">
             Lilac Template
           </h2>

@@ -1,8 +1,4 @@
-import Hero from "../components/layout-contact/Hero";
-import Appointment from "../components/layout-contact/Appointment";
-import Office from "../components/layout-contact/office";
-import SocialGallery from "../components/layout-contact/social";
-import Footer from "../components/layout-contact/footer";
+
 import Herohome from "../components/layout-home/Herohome";
 import GetInTouch from "../components/layout-home/getInTouch";
 import Spec from "../components/layout-home/spec";
